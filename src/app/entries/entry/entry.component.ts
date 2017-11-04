@@ -7,5 +7,12 @@ import { Component } from '@angular/core';
 })
 
 export class EntryComponent {
-
+    title: string = 'My First Photo';
+    photo: string = 'http://placehold.it/800x500?text=Angular Basics';
+    description: string = 'A Description of My First Photo';
+    comments: any[] = [
+        {name: "Sara", comment: "A comment"},
+        {name: "Jared", comment: "A comment"},
+        {name: "Ollie", comment: "A comment"}
+    ]
 }
